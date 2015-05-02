@@ -10,7 +10,7 @@ ERROR:root:... Expecting: True
 ERROR:root:... But got:   Traceback error
 ERROR:root:Got exception:
 Traceback (most recent call last):
-  File "/Library/Python/2.7/site-packages/gradebook/score.py", line 180, in check
+  File "/Users/andyatcal/Library/Python/2.7/lib/python/site-packages/gradebook/score.py", line 180, in check
     result = eval(command, g)
   File "<string>", line 1, in <module>
   File "/Library/Python/2.7/site-packages/rpy2/robjects/__init__.py", line 269, in __call__
@@ -22,7 +22,7 @@ Traceback (most recent call last):
 RRuntimeError: Error in all.equal(mean.m, sol$mean.m) : object 'mean.m' not found
 
 ERROR:root:Traceback (most recent call last):
-  File "/Library/Python/2.7/site-packages/gradebook/score.py", line 180, in check
+  File "/Users/andyatcal/Library/Python/2.7/lib/python/site-packages/gradebook/score.py", line 180, in check
     result = eval(command, g)
   File "<string>", line 1, in <module>
   File "/Library/Python/2.7/site-packages/rpy2/robjects/__init__.py", line 269, in __call__
@@ -34,7 +34,7 @@ ERROR:root:Traceback (most recent call last):
 RRuntimeError: Error in all.equal(mean.m, sol$mean.m) : object 'mean.m' not found
 
 Traceback (most recent call last):
-  File "/Library/Python/2.7/site-packages/gradebook/score.py", line 180, in check
+  File "/Users/andyatcal/Library/Python/2.7/lib/python/site-packages/gradebook/score.py", line 180, in check
     result = eval(command, g)
   File "<string>", line 1, in <module>
   File "/Library/Python/2.7/site-packages/rpy2/robjects/__init__.py", line 269, in __call__
@@ -50,7 +50,7 @@ ERROR:root:... Expecting: True
 ERROR:root:... But got:   Traceback error
 ERROR:root:Got exception:
 Traceback (most recent call last):
-  File "/Library/Python/2.7/site-packages/gradebook/score.py", line 180, in check
+  File "/Users/andyatcal/Library/Python/2.7/lib/python/site-packages/gradebook/score.py", line 180, in check
     result = eval(command, g)
   File "<string>", line 1, in <module>
   File "/Library/Python/2.7/site-packages/rpy2/robjects/__init__.py", line 269, in __call__
@@ -62,7 +62,7 @@ Traceback (most recent call last):
 RRuntimeError: Error in all.equal(sd.m, sol$sd.m) : object 'sd.m' not found
 
 ERROR:root:Traceback (most recent call last):
-  File "/Library/Python/2.7/site-packages/gradebook/score.py", line 180, in check
+  File "/Users/andyatcal/Library/Python/2.7/lib/python/site-packages/gradebook/score.py", line 180, in check
     result = eval(command, g)
   File "<string>", line 1, in <module>
   File "/Library/Python/2.7/site-packages/rpy2/robjects/__init__.py", line 269, in __call__
@@ -74,7 +74,7 @@ ERROR:root:Traceback (most recent call last):
 RRuntimeError: Error in all.equal(sd.m, sol$sd.m) : object 'sd.m' not found
 
 Traceback (most recent call last):
-  File "/Library/Python/2.7/site-packages/gradebook/score.py", line 180, in check
+  File "/Users/andyatcal/Library/Python/2.7/lib/python/site-packages/gradebook/score.py", line 180, in check
     result = eval(command, g)
   File "<string>", line 1, in <module>
   File "/Library/Python/2.7/site-packages/rpy2/robjects/__init__.py", line 269, in __call__
@@ -96,3 +96,4 @@ ERROR:root:... But got:   Names: 2 string mismatches
 ERROR:root:(2 points) Checking R('all.equal(family2, sol$family2)')[0]
 ERROR:root:... Expecting: True
 ERROR:root:... But got:   Names: 1 string mismatch
+INFO:root:You got a 10 out of 20.
