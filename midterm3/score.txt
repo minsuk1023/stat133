@@ -1,0 +1,32 @@
+Total: 17/20
+
+Function 1
+5/5
+
+Function 2
+5/5
+
+Function 3
+4/5
+> hisToTheir("He saw him")
+[1] "He saw him"
+
+Function 4
+3/5
+Your function does not necessarily return
+the most common letter or letters
+
+
+  tab <- table(lettervec)
+  letter <- names(tab)[tab == max(tab)]
+
+eg  mostCommonLetter("aabbccccdddd")
+returns “b” “c” “d”
+
+The last three lines of the function should be 
+changed to
+
+  tab <- table(lettervec)
+  letter <- names(tab)[tab == max(tab)]
+  return(letter) 
+
