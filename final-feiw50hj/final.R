@@ -180,10 +180,10 @@ boxplot(mtcars$mpg ~ mtcars$cyl)
 # Hint: the regression coefficients are stored in [coef] in the lm object and you can use [abline()] to
 # add a line to a plot
 
-regression = lm(qsec - hp, data = mtcars)
-coeff = coefficients(regression)
-plot(x = mtcars$hp, y = mtcars$qsec)
-abline( a = coeff["(Intercept)"], b = coeff(["hp"])
+#regression = lm(qsec - hp, data = mtcars)
+#coeff = coefficients(regression)
+#plot(x = mtcars$hp, y = mtcars$qsec)
+#abline( a = coeff["(Intercept)"], b = coeff(["hp"])
 
 # [3 pt]
 # Make a scatterplot of [disp] (on y-axis) versus [wt] 
@@ -217,7 +217,7 @@ abline(v=2.1)
 # The left plot should include only data from 1960, the right one only from 2014.
 
 colsWorldBank <- rainbow(length(unique(WorldBank$region)))
-par(mfrow = c(1960, 1))
+par(mfrow = c(1, 1))
 plot(WorldBank$fertility.rate[WorldBank$year == "1960"],
      WorldBank$life.expectancy[WorldBank$year == "1960"],
      pch=".", col=colsWorldBank, xlab= "fertility rate", ylab = "life expectancy")
@@ -261,14 +261,14 @@ maxAbsDiffTwoconsecutiveDays = function(rainlist) {
   i = 2
   maxDiff = 0
   while (i <= length(rainlist)) {
-    diff = abs(rainlist()
+    diff = abs(rainlist())
    
                
   }          
     i = i +1
   }
 
-max.diff.rain <- unlist(lapply(rain, maxAbsDiffTwoconsecutiveDays))
+#max.diff.rain <- unlist(lapply(rain, maxAbsDiffTwoconsecutiveDays))
 
 
 
@@ -372,7 +372,7 @@ GenNorm <-function(mean = 0, sd = 1, n = 1000, plot.his = TRUE) {
     
  }
 
-PermDiff(c(1,2,4,5,6),c(9,2,8,2), k = 1000)
+#PermDiff(c(1,2,4,5,6),c(9,2,8,2), k = 1000)
 
 #################################################################
 ##### PART V : simulations [15 pts]
@@ -426,10 +426,10 @@ NumJackpot <- function(k, B){
 # For B = 5000 and each value of k = 10000, 50000, 100000, 500000
 # Plot a histogram of the output from NumJackpot (i.e. four histograms)
 
-hist(NumJackpot(B = 5000, k =10000)
-hist(NumJackpot(B = 5000, k =50000)
-hist(NumJackpot(B = 5000, k =100000)
-hist(NumJackpot(B = 5000, k =500000)
+hist(NumJackpot(B = 50, k =100)) #Andy
+hist(NumJackpot(B = 50, k =500))
+hist(NumJackpot(B = 50, k =1000))
+hist(NumJackpot(B = 50, k =5000))
 
 #################################################################
 ##### PART VI : string manipulation and regular expressions [20 pts]
@@ -458,18 +458,18 @@ text3 <- grep(".+((ta){1,}).+", phrases)
 # [2 pts]
 # Create a vector [text4] that has the first 3 characters of each element in phrases
 
-text4 <- c("sto", "ste", "sle", "Sta", "sil", "cat", "dog", "cat", "why", "rea", "how", "ata", "bar", "car")
-
+#text4 <- c("sto", "ste", "sle", "Sta", "sil", "cat", "dog", "cat", "why", "rea", "how", "ata", "bar", "car")
+#Sorry, Regex -- Andy
 
 # [2 pts]
 # Create a vector [text5] that has all the elements in phrases that have a punctuation mark 
-text5 <-  c( "why?", "really!", "how much? )
+#text5 <-  c( "why?", "really!", "how much? )
 
 
 # [2 pts]
 # Create a vector [phrases2] where you have replaced the first instance of the letter "a" in each word with "@"
 
-phrases2 <- c("stone", "steel", "sled", "St@r", "silly", "c@t", "dog", "c@tcat", "why?", "re@lly!", "how much?", "@tatat", "b@r", "c@r")
+#phrases2 <- c("stone", "steel", "sled", "St@r", "silly", "c@t", "dog", "c@tcat", "why?", "re@lly!", "how much?", "@tatat", "b@r", "c@r")
 
 
 
