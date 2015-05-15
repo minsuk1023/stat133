@@ -51,7 +51,8 @@
 # the hw3 directory in the file WR1500MeterMen.rda.
 
 # load the data
-load("~/src/stat133/assignments/hw2/WR1500MeterMen.rda")
+# load("~/src/stat133/assignments/hw2/WR1500MeterMen.rda")
+load("WR1500MeterMen.rda")
 
 # The name of the object loaded is wr1500m
 # The time (in the column "times") in these data are recorded in seconds, 
@@ -169,7 +170,9 @@ text(wr_1998-0.5, wr1500m$times_sec[wr1500m$new_year == wr_1998], labels = wr150
 # The data frame SO2012Ctry contains this information.
 # It can be loaded into R with
 
-load("~/src/stat133/assignments/hw2/SummerOlympics2012Ctry.rda")
+# load("~/src/stat133/assignments/hw2/SummerOlympics2012Ctry.rda")
+load("SummerOlympics2012Ctry.rda")
+
 
 
 #Q6 Take a look at the variables in this data frame.
@@ -299,7 +302,8 @@ symbols(wonMedal$longitude, wonMedal$latitude, circles = sqrt(wonMedal$Total)/1.
 # and contains information about every athlete who competed 
 # in the Olympics.
 
-load("~/src/stat133/assignments/hw2/London2012ALL_ATHLETES.rda")
+# load("~/src/stat133/assignments/hw2/London2012ALL_ATHLETES.rda")
+load("London2012ALL_ATHLETES.rda")
 
 # There is one observation for each athlete. 
 # (Actually, about 20 athletes have two records if they
